@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="120dp"
+    android:padding="1dip" >
+
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="160dp"
+        android:layout_height="114dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="10dip"
+        android:layout_marginLeft="1dip"
+        android:layout_marginBottom="0dp"
+        android:contentDescription="TODO" />
+
+    <TextView
+        android:id="@+id/secondLine"
+        android:layout_width="270dp"
+        android:layout_height="15dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="45dp"
+        android:layout_toRightOf="@id/icon"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:text="Description"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/Line3"
+        android:layout_width="270dp"
+        android:layout_height="15dip"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="65dp"
+        android:layout_toRightOf="@id/icon"
+        android:textColor="#FFFFFF"
+        android:gravity="center_vertical"
+        android:text="Description"
+        android:textSize="12sp" />
+
+    <TextView
+        android:id="@+id/firstLine"
+        android:layout_width="247dp"
+        android:layout_height="27dp"
+        android:layout_alignWithParentIfMissing="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="-2dp"
+        android:layout_marginTop="15dp"
+        android:textColor="#FFFFFF"
+        android:layout_toRightOf="@id/icon"
+        android:gravity="center_vertical"
+        android:text="Example application"
+        android:textSize="15sp" />
+
+
+</RelativeLayout>
